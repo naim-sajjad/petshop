@@ -1,0 +1,58 @@
+2020-02-21T18:51:14+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php on line 15
+
+2020-02-21T18:53:05+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php on line 15
+
+2020-02-21T21:25:35+00:00 CRITICAL Uncaught Error: Unsupported operand types in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php:29
+Stack trace:
+#0 C:\xampp\htdocs\wp_petshop\wp-includes\class-wp-hook.php(288): return_custom_price(Array, Object(WC_Product_Simple))
+#1 C:\xampp\htdocs\wp_petshop\wp-includes\plugin.php(249): WP_Hook->apply_filters('2299', Array)
+#2 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(142): apply_filters_ref_array('woocommerce_get...', Array)
+#3 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(129): WC_Deprecated_Filter_Hooks->trigger_hook('woocommerce_get...', Array)
+#4 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-deprecated-hooks.php(73): WC_Deprecated_Filter_Hooks->handle_deprecated_hook('woocommerce_pro...', 'woocommerce_get...', Array, '2299')
+#5 C:\xampp\htdocs\wp_petshop\wp-includes\class-wp-hook.php(288): WC_Deprecated_Hooks->maybe_han in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php on line 29
+
+2020-02-21T21:28:24+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php:30
+Stack trace:
+#0 C:\xampp\htdocs\wp_petshop\wp-includes\class-wp-hook.php(288): return_custom_price(5747.5, false)
+#1 C:\xampp\htdocs\wp_petshop\wp-includes\plugin.php(249): WP_Hook->apply_filters('2299', Array)
+#2 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(142): apply_filters_ref_array('woocommerce_get...', Array)
+#3 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(129): WC_Deprecated_Filter_Hooks->trigger_hook('woocommerce_get...', Array)
+#4 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-deprecated-hooks.php(73): WC_Deprecated_Filter_Hooks->handle_deprecated_hook('woocommerce_pro...', 'woocommerce_get...', Array, '2299')
+#5 C:\xampp\htdocs\wp_petshop\wp-includes\class-wp-hook.php(288): WC_Deprecated_Hooks->maybe_ha in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php on line 30
+
+2020-02-21T21:30:16+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on boolean in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php:30
+Stack trace:
+#0 C:\xampp\htdocs\wp_petshop\wp-includes\class-wp-hook.php(288): return_custom_price(5747.5, false)
+#1 C:\xampp\htdocs\wp_petshop\wp-includes\plugin.php(249): WP_Hook->apply_filters('2299', Array)
+#2 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(142): apply_filters_ref_array('woocommerce_get...', Array)
+#3 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(129): WC_Deprecated_Filter_Hooks->trigger_hook('woocommerce_get...', Array)
+#4 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-deprecated-hooks.php(73): WC_Deprecated_Filter_Hooks->handle_deprecated_hook('woocommerce_pro...', 'woocommerce_get...', Array, '2299')
+#5 C:\xampp\htdocs\wp_petshop\wp-includes\class-wp-hook.php(288): WC_Deprecated_Hooks->maybe_ha in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php on line 30
+
+2020-02-21T21:31:04+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on boolean in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php:28
+Stack trace:
+#0 C:\xampp\htdocs\wp_petshop\wp-includes\class-wp-hook.php(288): return_custom_price('2299', false)
+#1 C:\xampp\htdocs\wp_petshop\wp-includes\plugin.php(249): WP_Hook->apply_filters('2299', Array)
+#2 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(142): apply_filters_ref_array('woocommerce_get...', Array)
+#3 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(129): WC_Deprecated_Filter_Hooks->trigger_hook('woocommerce_get...', Array)
+#4 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-deprecated-hooks.php(73): WC_Deprecated_Filter_Hooks->handle_deprecated_hook('woocommerce_pro...', 'woocommerce_get...', Array, '2299')
+#5 C:\xampp\htdocs\wp_petshop\wp-includes\class-wp-hook.php(288): WC_Deprecated_Hooks->maybe_ in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php on line 28
+
+2020-02-21T21:32:13+00:00 CRITICAL Uncaught Error: Call to a member function get_name() on boolean in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php:28
+Stack trace:
+#0 C:\xampp\htdocs\wp_petshop\wp-includes\class-wp-hook.php(288): return_custom_price('2299', false)
+#1 C:\xampp\htdocs\wp_petshop\wp-includes\plugin.php(249): WP_Hook->apply_filters('2299', Array)
+#2 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(142): apply_filters_ref_array('woocommerce_get...', Array)
+#3 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(129): WC_Deprecated_Filter_Hooks->trigger_hook('woocommerce_get...', Array)
+#4 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-deprecated-hooks.php(73): WC_Deprecated_Filter_Hooks->handle_deprecated_hook('woocommerce_pro...', 'woocommerce_get...', Array, '2299')
+#5 C:\xampp\htdocs\wp_petshop\wp-includes\class-wp-hook.php(288): WC_Deprecated_Hooks->maybe_ in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php on line 28
+
+2020-02-21T21:33:43+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php:32
+Stack trace:
+#0 C:\xampp\htdocs\wp_petshop\wp-includes\class-wp-hook.php(288): return_custom_price(5747.5, NULL)
+#1 C:\xampp\htdocs\wp_petshop\wp-includes\plugin.php(249): WP_Hook->apply_filters('2299', Array)
+#2 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(142): apply_filters_ref_array('woocommerce_get...', Array)
+#3 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\class-wc-deprecated-filter-hooks.php(129): WC_Deprecated_Filter_Hooks->trigger_hook('woocommerce_get...', Array)
+#4 C:\xampp\htdocs\wp_petshop\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-deprecated-hooks.php(73): WC_Deprecated_Filter_Hooks->handle_deprecated_hook('woocommerce_pro...', 'woocommerce_get...', Array, '2299')
+#5 C:\xampp\htdocs\wp_petshop\wp-includes\class-wp-hook.php(288): WC_Deprecated_Hooks->maybe_handle in C:\xampp\htdocs\wp_petshop\wp-content\themes\electro-child\functions.php on line 32
+
